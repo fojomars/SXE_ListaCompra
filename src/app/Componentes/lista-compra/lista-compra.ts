@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListaProductos implements OnInit {
 
+  // Lista de los productos disponibles
   productos: any[];
   constructor() {
     const producto1 = {
