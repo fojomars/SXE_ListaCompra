@@ -1,0 +1,27 @@
+<table style="width: 100%; border: 1px solid black;">
+  <tr>
+    <th>Productos</th>
+  </tr>
+
+  <tr *ngFor="let producto of productos; index as i;">
+    <td>
+      <button (click)="comprar(producto)">{{producto.titulo}}</button>
+    </td>
+  </tr>
+</table>
+
+<div id="pc">
+  <h2>PRODUCTOS COMPRADOS</h2>
+  <div *ngFor="let producto of productos; index as i" id="pc">
+    <h3 *ngIf="productos[i].comprado">{{productos[i].titulo}}</h3>
+  </div>
+</div>
+
+<div id="pnc">
+  <h2>PRODUCTOS NO COMPRADOS</h2>
+  <div *ngFor="let producto of productos; index as i" id="pnc">
+    <h3 *ngIf="!productos[i].comprado">{{productos[i].titulo}}</h3>
+  </div>
+</div>
+
+

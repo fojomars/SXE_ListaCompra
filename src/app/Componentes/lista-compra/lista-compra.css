@@ -1,0 +1,10 @@
+#pc{
+  background-color: green;
+  width: 40%;
+  float: left;
+}
+#pnc{
+  background-color: red;
+  width: 40%;
+  float: right;
+}
