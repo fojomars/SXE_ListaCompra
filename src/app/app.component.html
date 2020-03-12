@@ -1,2 +1,29 @@
-<router-outlet></router-outlet>
-<app-lista-compra></app-lista-compra>
+<div class="loginDiv" *ngIf="( authComponent.user | async) as obs; else login">{{obs.email}} - {{obs.uid}}
+
+  <button class="btn btn-secondary" (click)="authComponent.logout()">OUT</button>
+  <br/><br/>
+  <button class="btn btn-success" (click)="dbApp.altausuario(obs.email, obs.uid)"><i class="fas fa-check"></i> ALTA</button>
+  <button class="btn btn-danger" (click)="dbApp.bajausuario(obs.uid)"><i class="far fa-trash-alt"></i> BAJA</button>
+  <br/><br/>
+</div>
+
+  <ng-template #login>
+    <div class="loginDiv">
+        <br/><br/>
+        <button class="btn btn-primary" (click)="authComponent.login()">
+          <i class="far fa-envelope"></i>
+          Email Login</button>
+        <br/><br/>
+        <button class="btn btn-danger" (click)="authComponent.glogin()">
+          <i class="fab fa-google"></i>
+          Google Login
+        </button>
+      <br/><br/>
+        <button class="btn btn-secundary" (click)="authComponent.ghlogin()">
+          <i class="fab fa-github"></i>
+          GitHub Login
+        </button>
+      <br/><br/>
+    </div>
+  </ng-template>
+
