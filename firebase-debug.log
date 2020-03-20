@@ -1,0 +1,56 @@
+[debug] [2020-03-20T17:08:12.274Z] ----------------------------------------------------------------------
+[debug] [2020-03-20T17:08:12.277Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\junio\WebstormProjects\SXE_ListaCompra\node_modules\firebase-tools\lib\bin\firebase.js list
+[debug] [2020-03-20T17:08:12.277Z] CLI Version:   7.15.1
+[debug] [2020-03-20T17:08:12.277Z] Platform:      win32
+[debug] [2020-03-20T17:08:12.277Z] Node Version:  v12.16.1
+[debug] [2020-03-20T17:08:12.279Z] Time:          Fri Mar 20 2020 18:08:12 GMT+0100 (GMT+01:00)
+[debug] [2020-03-20T17:08:12.279Z] ----------------------------------------------------------------------
+[debug] [2020-03-20T17:08:12.279Z] 
+[debug] [2020-03-20T17:08:12.292Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-20T17:08:12.293Z] > authorizing via signed-in user
+[warn] This command is deprecated. Instead, use 'firebase projects:list' command to list your projects.
+[debug] [2020-03-20T17:08:12.296Z] [WARNING] Error: getProjects() is deprecated - update the implementation
+    at Object.getProjects (C:\Users\junio\WebstormProjects\SXE_ListaCompra\node_modules\firebase-tools\lib\api.js:187:35)
+    at Command.actionFn (C:\Users\junio\WebstormProjects\SXE_ListaCompra\node_modules\firebase-tools\lib\commands\list.js:14:16)
+    at Command.<anonymous> (C:\Users\junio\WebstormProjects\SXE_ListaCompra\node_modules\firebase-tools\lib\command.js:158:25)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\junio\WebstormProjects\SXE_ListaCompra\node_modules\firebase-tools\lib\command.js:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[debug] [2020-03-20T17:08:12.299Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ 
+[debug] [2020-03-20T17:08:13.484Z] Error: certificate has expired
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1473:34)
+    at TLSSocket.emit (events.js:311:20)
+    at TLSSocket.EventEmitter.emit (domain.js:482:12)
+    at TLSSocket._finishInit (_tls_wrap.js:916:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:686:12)
+[error] 
+[error] Error: Server Error. certificate has expired
+[debug] [2020-03-20T17:08:32.201Z] ----------------------------------------------------------------------
+[debug] [2020-03-20T17:08:32.206Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\junio\WebstormProjects\SXE_ListaCompra\node_modules\firebase-tools\lib\bin\firebase.js list
+[debug] [2020-03-20T17:08:32.206Z] CLI Version:   7.15.1
+[debug] [2020-03-20T17:08:32.206Z] Platform:      win32
+[debug] [2020-03-20T17:08:32.206Z] Node Version:  v12.16.1
+[debug] [2020-03-20T17:08:32.208Z] Time:          Fri Mar 20 2020 18:08:32 GMT+0100 (GMT+01:00)
+[debug] [2020-03-20T17:08:32.208Z] ----------------------------------------------------------------------
+[debug] [2020-03-20T17:08:32.209Z] 
+[debug] [2020-03-20T17:08:32.225Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-20T17:08:32.226Z] > authorizing via signed-in user
+[warn] This command is deprecated. Instead, use 'firebase projects:list' command to list your projects.
+[debug] [2020-03-20T17:08:32.228Z] [WARNING] Error: getProjects() is deprecated - update the implementation
+    at Object.getProjects (C:\Users\junio\WebstormProjects\SXE_ListaCompra\node_modules\firebase-tools\lib\api.js:187:35)
+    at Command.actionFn (C:\Users\junio\WebstormProjects\SXE_ListaCompra\node_modules\firebase-tools\lib\commands\list.js:14:16)
+    at Command.<anonymous> (C:\Users\junio\WebstormProjects\SXE_ListaCompra\node_modules\firebase-tools\lib\command.js:158:25)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\junio\WebstormProjects\SXE_ListaCompra\node_modules\firebase-tools\lib\command.js:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[debug] [2020-03-20T17:08:32.231Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ 
+[debug] [2020-03-20T17:08:33.072Z] Error: certificate has expired
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1473:34)
+    at TLSSocket.emit (events.js:311:20)
+    at TLSSocket.EventEmitter.emit (domain.js:482:12)
+    at TLSSocket._finishInit (_tls_wrap.js:916:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:686:12)
+[error] 
+[error] Error: Server Error. certificate has expired
