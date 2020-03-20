@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "StoreList"
+    }
+  },
+  "defaultProject": "StoreList",
+  "cli": {
+    "analytics": "0617eeca-176a-436b-99b4-c6423707f676"
+  }
 }
